@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6ecc83c8d4834218a4d345da0f553678" Name="Diagram1">
+        <EntityTypeShape EntityType="WineDataModel.Wine" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="WineDataModel.RateList" Width="1.5" PointX="0.75" PointY="4.125" />
+        <EntityTypeShape EntityType="WineDataModel.Customer" Width="1.5" PointX="3" PointY="3.875" />
+        <AssociationConnector Association="WineDataModel.FK_Customer_Rate" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
